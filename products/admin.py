@@ -2,7 +2,7 @@ from django.contrib import admin
 
 # Register your models here.
 
-from .models import Product ,ProductImage
+from products.models import Product ,ProductImage
 
 class ProductAdmin(admin.ModelAdmin):
 	date_hierarchy = 'timestamp'
